@@ -1,39 +1,55 @@
-## Olá, eu sou o João Leandro, desenvolvedor Fullstack e entusiasta de backend!
+<h1 align="center">João Leandro</h1>
 
-<div style="display: flex; gap: 30px;">
-  <a href="https://github.com/joaovitorleandro">
-    <img height="150em" src="https://github-readme-stats.vercel.app/api?username=joaovitorleandro&show_icons=true&theme=dark&count_private=true&hide=contribs" />
-  </a>
-  <a href="https://github.com/joaovitorleandro">
-    <img height="150em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=joaovitorleandro&layout=compact&langs_count=8&theme=dark" />
-  </a>
-</div>
+<p align="center">
+  <b>DevOps Engineer · SRE · Backend Software Engineer</b><br>
+  Kubernetes · GitOps · AWS · OCI · Linux · Laravel · PostgreSQL
+</p>
 
-<div style="display: inline_block"><br>
-  <img align="center" alt="JS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" />
-  <img align="center" alt="TS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" />
-  <img align="center" alt="PHP" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" />
-  <img align="center" alt="Laravel" height="30" width="40" src="https://cdn.worldvectorlogo.com/logos/laravel-2.svg" />
-  <img align="center" alt="VueJS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original.svg" />
-  <img align="center" alt="React" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" />
-  <img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" />
-  <img align="center" alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" />
-  <img align="center" alt="MySQL" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" />
-  <img align="center" alt="Git" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" />
-  <img align="center" alt="AWS" height="30" width="40" src="https://www.svgrepo.com/show/448266/aws.svg" />
-</div>
+<p align="center">
+  <a href="https://www.linkedin.com/in/jo%C3%A3o-vitor-leandro-b21158237/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <img src="https://img.shields.io/badge/Remoto-Brasil-2EA043?style=for-the-badge" alt="Remoto, Brasil">
+</p>
 
-##
+---
 
-<div> 
-  <a href="https://github.com/joaovitorleandro" target="_blank">
-    <img src="https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-  <a href="https://www.linkedin.com/in/joão-vitor-leandro-b21158237" target="_blank">
-    <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="https://www.instagram.com/joaovbleandro" target="_blank">
-    <img src="https://img.shields.io/badge/-Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
-  </a>
-</div>
+### Sobre mim
 
+Engenheiro de software com perfil híbrido: desenvolvo a aplicação e opero a infraestrutura que a mantém no ar.
+
+- **Infraestrutura e confiabilidade:** opero clusters Kubernetes (K3s) com ArgoCD/GitOps e Docker Swarm em produção, na AWS e na Oracle Cloud, incluindo a migração para a nuvem dos sistemas de PDV de uma rede de franquias nacional.
+- **Resposta a incidentes:** investigo até a causa raiz problemas de HTTP 5xx, DNS, TLS, armazenamento e memória da JVM.
+- **Backend:** construo sistemas multi-tenant em Laravel e PostgreSQL com processamento assíncrono confiável: idempotência, outbox transacional e advisory locks.
+- **Agora estudando:** Terraform, observabilidade (Prometheus, Grafana, OpenTelemetry), Go e inglês.
+
+<sub>🇺🇸 Hybrid DevOps/SRE and backend engineer. I build applications and run the infrastructure that keeps them in production: Kubernetes, GitOps, AWS, OCI, Linux, Laravel and PostgreSQL.</sub>
+
+---
+
+### Stack
+
+**Infra e DevOps**
+
+<p>
+  <img src="https://skillicons.dev/icons?i=kubernetes,docker,aws,linux,bash,nginx,cloudflare,githubactions,git&theme=dark" alt="Kubernetes, Docker, AWS, Linux, Bash, Nginx, Cloudflare, GitHub Actions, Git">
+</p>
+
+ArgoCD · GitOps · Docker Swarm · K3s · Oracle Cloud (OCI) · Traefik · Apache Tomcat · LVM · NFS · Fail2ban
+
+**Backend, dados e frontend**
+
+<p>
+  <img src="https://skillicons.dev/icons?i=php,laravel,ts,nodejs,java,spring,postgres,redis,mysql,mongodb,vue,react,nextjs&theme=dark" alt="PHP, Laravel, TypeScript, Node.js, Java, Spring, PostgreSQL, Redis, MySQL, MongoDB, Vue, React, Next.js">
+</p>
+
+Horizon · filas e workers · multi-tenancy · RBAC · MinIO (S3) · Playwright · PHPUnit · PHPStan
+
+---
+
+### Em destaque
+
+| Projeto | O que é | Stack |
+|---|---|---|
+| **Migração para a nuvem de uma rede de franquias** | Containerização de aplicações Java legadas e serviços de PDV, GitOps com homologação e produção separadas, monitoramento e backups | K3s · ArgoCD · Docker Swarm · OCI · Nginx |
+| **Cofre Fiscal** | SaaS multi-tenant de recuperação e gestão de documentos fiscais eletrônicos, com 709 testes automatizados | Laravel · PostgreSQL · Redis · Horizon · MinIO · Playwright |
+| **Global Manager (ERP)** | Módulos de compras, logística, CRM, catálogo B2B e integrações fiscais, com deploy containerizado na AWS | Laravel · Vue 3 · PrimeVue · Docker · AWS |
+| **Grupo Promo** | Automação que encontra promoções no Mercado Livre e publica em grupos de WhatsApp | Automação · integrações |
