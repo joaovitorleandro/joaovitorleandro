@@ -42,14 +42,3 @@ ArgoCD · GitOps · Docker Swarm · K3s · Oracle Cloud (OCI) · Traefik · Apac
 </p>
 
 Horizon · filas e workers · multi-tenancy · RBAC · MinIO (S3) · Playwright · PHPUnit · PHPStan
-
----
-
-### Em destaque
-
-| Projeto | O que é | Stack |
-|---|---|---|
-| **Migração para a nuvem de uma rede de franquias** | Containerização de aplicações Java legadas e serviços de PDV, GitOps com homologação e produção separadas, monitoramento e backups | K3s · ArgoCD · Docker Swarm · OCI · Nginx |
-| **Cofre Fiscal** | SaaS multi-tenant de recuperação e gestão de documentos fiscais eletrônicos, com 709 testes automatizados | Laravel · PostgreSQL · Redis · Horizon · MinIO · Playwright |
-| **Global Manager (ERP)** | Módulos de compras, logística, CRM, catálogo B2B e integrações fiscais, com deploy containerizado na AWS | Laravel · Vue 3 · PrimeVue · Docker · AWS |
-| **Grupo Promo** | Automação que encontra promoções no Mercado Livre e publica em grupos de WhatsApp | Automação · integrações |
